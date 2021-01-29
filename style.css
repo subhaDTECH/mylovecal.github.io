@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+.main_div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/16/07/29/rose-1460773_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.center_div{
+    display: grid;
+    place-items: center;
+    flex-direction: column;
+    background-color:rgba(219, 9, 9, 0.293);
+    padding: 20px 30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+}
+.center_div input{
+    margin: 10px;
+    padding: 8px 30px;
+}
+.center_div h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.btn{
+    width: 150px;
+    padding: 10px 30px ;
+    background-color: red;
+    text-align: center;
+    color: aliceblue;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+p{
+    background-color: #fff;
+    padding: 10px 30px;
+}
